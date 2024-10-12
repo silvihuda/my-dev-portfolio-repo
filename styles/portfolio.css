@@ -20,7 +20,13 @@
     padding: 18px 35px;
     border: none;
 }
-
+/* header */
+.header{
+    background-image: url('../assets/images/developer.png'),
+    url('../assets/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* nav styles */
 nav {
     display: flex;
@@ -52,4 +58,34 @@ nav>ul>li>a {
 
 .dark-2 {
     color: #474747;
+}
+
+
+/* banner-styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner-content{
+     max-width: 580 px;
 }
